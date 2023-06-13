@@ -5,13 +5,42 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Файлы заголовков">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Исходные файлы\Person">
+      <UniqueIdentifier>{9e6a63b6-63ac-4625-811a-e3609c8bd207}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы ресурсов">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Исходные файлы\PersList">
+      <UniqueIdentifier>{5a81b235-fbbe-4031-8e5b-5b01c618a6d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Person\Persons">
+      <UniqueIdentifier>{f5f309a8-17ad-460b-9995-9a415e9265de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Исходные файлы\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="PersList.cpp">
+      <Filter>Исходные файлы\PersList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h">
+      <Filter>Исходные файлы\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="PersList.h">
+      <Filter>Исходные файлы\PersList</Filter>
+    </ClInclude>
+    <ClInclude Include="Formalists.h">
+      <Filter>Исходные файлы\Person\Persons</Filter>
+    </ClInclude>
+    <ClInclude Include="Informals.h">
+      <Filter>Исходные файлы\Person\Persons</Filter>
+    </ClInclude>
+    <ClInclude Include="Realists.h">
+      <Filter>Исходные файлы\Person\Persons</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
